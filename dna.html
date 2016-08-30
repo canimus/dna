@@ -1,0 +1,214 @@
+<html lang="en">
+  <head>
+    <meta name="charshet" content="utf8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+    * {
+      font-family: "Proxima Nova";
+      -webkit-font-smoothing: antialiased;
+    }
+    table {
+      width: 100%;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td.inside {
+      border-bottom: 1px solid #eee;
+      padding: 10px 5px;
+    }
+
+    td:nth-child(2) {
+      width: 200px;
+    }
+
+    td:nth-child(3) {
+      width: 300px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <address>
+        IOVIO Big Data S.L.<br/>
+        Plaza del Ayuntamiento 2 (7/15)<br/>
+        Valencia, Spain (46003)
+      </address>
+    </header>
+    <h1>Team DNA</h1>
+    <hr>
+    <h2>IOVIO / Big Data</h3>
+    <h3>About our Technical Skills:</h3>
+    <p>In IOVIO Big Data we simply employ the best in class consultants that maintain current and sharp with the continuously evolving ecosystem of big data solutions. Our approach is to employ under a rigorous on-boarding process that assesses skills from a generalist point of view around technologies supporting big data, as opposed to the legacy IT of specialist-silo-worker style.
+We invest, protect and build profiles in-house by offering career paths in the technical and analytical streams in big data, by continuously collaborating and engaging with niche players in the industry, other peers internationally and the community. Our skill profile is unmatched in the industry and we are proud about our talented, multi-cultural and resourceful team.</p>
+<br/>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="4"></th>
+        <th colspan="7">Technical Profile</th>
+        <th>&nbsp;</th>
+        <th colspan="3">Analytical Profile</th>
+      </tr>
+      <tr>
+        <th colspan="4"></th>
+        <th>Technical Data Engineer</th>
+        <th>&nbsp;</th>
+        <th>Technical Data Consultant</th>
+        <th>&nbsp;</th>
+        <th>Technical Data Prncipal</th>
+        <th>&nbsp;</th>
+        <th>Technical Data Architect</th>
+        <th>&nbsp;</th>
+        <th>Data Analyst</th>
+        <th>&nbsp;</th>
+        <th>Data Scientist</th>
+      </tr>
+      <tr>
+        <th colspan="4"></th>
+        <th>TDE</th>
+        <th>&nbsp;</th>
+        <th>TDC</th>
+        <th>&nbsp;</th>
+        <th>TDP</th>
+        <th>&nbsp;</th>
+        <th>TDA</th>
+        <th>&nbsp;</th>
+        <th>DA</th>
+        <th>&nbsp;</th>
+        <th>DS</th>
+      </tr>
+    </thead>
+    <tbody id="content">
+    </tbody>
+  </table>
+  <script>
+  var technical_skills = {
+    "header" : "Tecnical Skills",
+    "skills": [
+      {
+        "id" : 1, "name" : "Sofware Development", "values" : [
+          {"id" : 1.1,"name" : "Core Concepts","description" : "Git, OOP, Functional Programming, Dependency Injection, Facades, Unit Test"},
+          {"id" : 1.2,"name" : "Interpreted Languages","description" : "Scala, Ruby, Python, JavaScript, Perl, PHP, Go"},
+          {"id" : 1.3,"name" : "Compiled Languages","description" : "Java, C, C++, Objective-C, SQL, Memory Management"},
+          {"id" : 1.4,"name" : "Scientific Languages","description" : "Matlab, Octave, R, Markdown, Plotting Libraries"}
+        ]
+      },
+      {
+        "id" : 2, "name" : "Enterprise Architecture", "values" : [
+          {"id" : 2.1,"name" : "Core Concepts","description" : "Protocols, Layers, Tiers, Distributed Systems, Virtualisation, Services, Testing, Concurrency, OS's"},
+          {"id" : 2.2,"name" : "RDBMS and NoSQL","description" : "Data Schemas, Schema-less Data, Normalisation, SQL, Data warehouse, Data lakes"},
+          {"id" : 2.3,"name" : "Canonical Modelling","description" : "Actors, Drivers, Interactions, States, Master Sources"},
+          {"id" : 2.4,"name" : "SOA and API/REST","description" : "JSON, XML, Stubs, Service Virtualisation, Data Orchestration"},
+          {"id" : 2.5,"name" : "MicroServices and CQRS","description" : "Containers, OS Isolation, Data Lineage, Data Streams"}
+        ]
+      },
+      {
+        "id" : 3, "name" : "Network Infrastructure", "values" : [
+          {"id" : 3.1,"name" : "TCP and UDP","description" : "Packet composition, WireShark, Tcpdump"},
+          {"id" : 3.2,"name" : "Quality of Service (QoS)","description" : "Package relevance, package prioritisation, usage"},
+          {"id" : 3.3,"name" : "IPv4 and IPv6","description" : "Network standards, differences, use"},
+          {"id" : 3.4,"name" : "SSL, TLS and Kerberos","description" : "Security, Transports, Implementation"},
+          {"id" : 3.5,"name" : "HTTP/2 and WebSockets","description" : "Web transport technologies, web servers, advantages"}
+        ]
+      },
+      {
+        "id" : 4, "name" : "Integration Paradigm", "values" : [
+          {"id" : 4.1,"name" : "Queuing Systems","description" : "Asynchronous messaging, ZeroMQ, JMS, Pub/Sub"},
+          {"id" : 4.2,"name" : "Batch Processing","description" : "Scheduling, CronTab, PL/SQL. Store Procedures, Triggers"},
+          {"id" : 4.3,"name" : "ETL and Data Streams","description" : "Mining, Log Parsing, Sinks, Data Pipelines, Consolidation, De-duplication, Reconciliation, Integrity"}
+        ]
+      },
+      {
+        "id" : 5, "name" : "DevOps Competences", "values" : [
+          {"id" : 5.1,"name" : "Continuous Integration / Continuous Development","description" : "Build systems, Parallel development, release management, environment management, Chef, Puppet"},
+          {"id" : 5.2,"name" : "Automation Engineering","description" : "Drivers, agents, correlation, parameterisation, unattended execution"},
+          {"id" : 5.3,"name" : "Application Deployment","description" : "Packaging, kernels, parcels, compliance, mandates, governance"},
+          {"id" : 5.4,"name" : "Enterprise Monitoring","description" : "Agent-based, agent-less, system resources, end user experience, analytics, dynamic computing resources"}
+        ]
+      },
+      {
+        "id" : 6, "name" : "Cloud Environments", "values" : [
+          {"id" : 6.1,"name" : "Providers","description" : "Amazon Web Services, Microsoft Azure, Google Cloud, IBM Soft-layer"},
+          {"id" : 6.2,"name" : "CLI-Interfaces","description" : "Orchestration of cloud appliances, Vagrant, Ansible"},
+          {"id" : 6.3,"name" : "Features","description" : "Acumen in the field, ability to adapt cloud to needs"},
+          {"id" : 6.4,"name" : "Pricing Models","description" : "Resourceful about costing, provision of orders of magnitude, spot requests bids"}
+        ]
+      },
+      {
+        "id" : 7, "name" : "Big Data", "values" : [
+          {"id" : 7.1,"name" : "Apache Hadoop","description" : "HDFS, MapReduce Job monitoring and debugging, MapReduce Job Implementation, Cluster building"},
+          {"id" : 7.2,"name" : "Apache Spark","description" : "Scala, Cassandra, HBase, Apache Zeppelin Notebook, Cloudera Impala, RDDs, DataFrames"},
+          {"id" : 7.3,"name" : "Apache Solr","description" : "Apache Lucene, Indexing, Enterprise Search solutions, Tesseract, OpenCV, Cloudera Search"},
+          {"id" : 7.4,"name" : "Apache MapReduce","description" : "Hadoop Streaming, AVRO, Parquet, Hadoop Pipes, Job Management"},
+          {"id" : 7.5,"name" : "Apache YARN","description" : "Apache Ambari, Cloudera Manager, Data operative system, Cluster Management"},
+          {"id" : 7.6,"name" : "Apache Flume","description" : "Log shipment, Data extraction and transformation, Sinks, Channels and sources"},
+          {"id" : 7.7,"name" : "Apache Kafka","description" : "Channel configuration for subscribers and publishers"}
+        ]
+      },
+      {
+        "id" : 8, "name" : "Data Science", "values" : [
+          {"id" : 8.1,"name" : "Statistics","description" : "Problem Models, Statistical Inference, exploratory data analysis"},
+          {"id" : 8.2,"name" : "Machine Learning","description" : "Linear and Logical Regression, Classification, Neural Networks, Problem Vectorisation, Algorithms, Supervised or unsupervised learning"},
+          {"id" : 8.3,"name" : "Probability","description" : "Classifiers, Bayesian methods, Boosting and Bagging"}
+        ]
+      },
+      {
+        "id" : 9, "name" : "Certifications", "values" : [
+          {"id" : 9.1,"name" : "Industry Recognised","description" : "Msc, Phd, Cloudera, AWS, Prince2, ITIL, ISTQB, PMI, TOGAF, Cisco"},
+          {"id" : 9.2,"name" : "Online Courses","description" : "Coursera, EDx, Udacity"},
+          {"id" : 9.3,"name" : "Events and Conferences","description" : "Internal, Self-paced courses, Meetups, Conferences"}
+        ]
+      }
+    ]
+  }
+
+  var t_content = d3.select("#content");
+  t_content.append("tr").append("td").attr("colspan", "15").text(technical_skills.header)
+
+  // Creates the header for each skill
+  function add_header(head) {
+    t_content.append("tr").append("td").attr("colspan", "15").text("|").style("opacity", 0);
+    var header_row = t_content.append("tr");
+    for (i=0; i<15; i++) {
+      var col = header_row.append("td").style("font-weight", "bold").style("padding-top", "20px");
+      switch(i) {
+        case 0:
+          col.text(head.id);
+          break;
+        case 1:
+          col.text(head.name);
+          break;
+      }
+    }
+  } // add_header
+
+  // Creates the description for each skill
+  function add_skill(skill) {
+    var skills_row = t_content.append("tr");
+    for (i=0; i<15; i++) {
+      var col = skills_row.append("td").attr("class","inside");
+      switch(i) {
+        case 0:
+          col.text(skill.id);
+          break;
+        case 1:
+          col.text(skill.name);
+          break;
+        case 2:
+          col.text(skill.description);
+          break;
+      }
+    }
+  } // add_skill
+
+  // Iterates through headers and skills
+  technical_skills.skills.forEach(function(s) {
+      add_header(s);
+      s.values.forEach(function(t) { return add_skill(t);});
+  });
+
+
+  </script>
+  </body>
+</html>
