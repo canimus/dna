@@ -1,0 +1,161 @@
+What is your name?
+
+What is your last name?
+
+In which country you were born?
+
+
+
+Programming Skills:
+
+Which acronyms define programming paradigms?
+- TTY, STDIN, STDOUT
+- OOP, FP, AOP
+- RFP, PPT, QFT
+- XML, JSON, BSON
+
+What is the purpose of writing code functions, methods, aspects or lambdas?
+- Make code looks cool
+- Reusability and modularity
+- To add more complexity, so others don't understand my code
+- To improve CPU, I/O and MEM usage over time
+
+What is the name given to the operation of forcing a type to an object or variable?
+- Pruning
+- Casting
+- Cloning
+- Bastardizing
+
+Do you think you can add numbers by using the shift bit operator?
+- True
+- False
+
+Select all languages that are compiled?
+- Java
+- C
+- Python
+- JavaScript
+- Ruby
+- Go
+- PHP
+- Haskell
+- Perl
+
+
+Select all languages that are interpreted (No compilation)?
+- Ruby
+- JavaScript
+- C
+- Python
+- Java
+- Perl
+- PHP
+- Haskell
+- Go
+
+
+Technical Screening:
+
+What would you think is the best description for an Automation Program?
+- Do things faster so I can go back home earlier
+- Code used to avoid repetitive tasks or error prone activities
+- Is an strategy from robots to take on human jobs
+- Is related to cars and self-driving vehicles
+
+How big is Big Data?
+- Something bigger than 2TB hard disks
+- Data that does not fit in a single computer
+- Is bigger than a soccer stadium
+- Is just a buzzword
+
+Which of the following technologies would you consider fundamental in a Big Data project?
+- Hadoop
+- ETL
+- SQL
+- All of them
+
+What do you think ASF stands for in the lingo of Big Data?
+- Application Skillset Federation
+- Archetype Software Framework
+- Analog Signal Frequency
+- Apache Software Foundation
+
+Which service of Amazon Web Services offers the ability to launch instances at costs spotted in the market?
+- S3
+- Docker
+- EC2
+- RedShift
+
+What best describes a REST API?
+- Is a repository for objects to rest for use, and recharge energy
+- Is a communication paradigm that uses HTTP methods as operations on resources
+- Is a development environment for XML files
+- Is a proprietary technology developed by Twitter
+
+
+
+Big Data Concepts:
+
+Which of this 4 variables are commonly used for defining scope of Big Data?
+- Velocity, Variability, Volume and Veracity
+- Strength, Resilience, Longevity and Persistency
+- Class, Type, Interface and Inheritance
+- Speed, Agility, Acceleration and Mastery
+
+When transferring data from and to a RDBMS and Hadoop which Apache tool would you use?
+- Sqoop
+- Flume
+- Kafka
+- Solr
+
+What is the name of the Data Operative System that administer resources for Hadoop?
+- MapReduce
+- YARN
+- HDFS
+- NameNode
+
+Is impossible to run Hadoop in 1 computer, only big companies can install it and run it?
+- True
+- False
+
+Which of the following are the Enterprise Distributions of Hadoop?
+- Pentaho, DataBricks and Qubole
+- Tableau, Google Analytics and Plotly
+- Cloudera, HortonWorks and MapR
+- Java, Scala and Spark
+
+What is the sequence of a MapReduce Job in Hadoop?
+- Input, Map, Sort, Shuffle, Reduce
+- Input, Map, Store, Collapse, Reduce
+- Sort, Input, Compute, Map, Reduce
+- Reduce, Sort, Input, Map, Output
+
+
+Data Science:
+
+
+
+
+Open Questions?
+
+If you realize you deliver something that has a huge mistake, but you are no longer in that project, would you notify the client?
+- Yes, I will communicate promptly
+- No, I will never do that
+- I don't know, I will check with my manager
+- Perhaps, only if we loose money
+
+What about learning?
+- I had enough of learning, I already know a lot
+- I am an expert, no need to know more
+- I want to know more!
+- I can only learn from certain type of people
+
+Have you participated in a Online Training course like Coursera, Edx, Udacity, etc.
+- Yes
+- No
+
+If we could compliment your salary and current benegits with other options, what would you like?
+- Tablet, Headset or Portfolio
+- T-Shirts, Tailored Shirts, Customized Trainers, Watch
+- Just show me the money!
+- Group events, conferences, trips to somewhere cool

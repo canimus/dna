@@ -1,0 +1,28 @@
+body {
+  margin: 50px 50px;
+}
+
+* {
+  font-family: "Segoe UI";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+td.inside {
+  border-bottom: 1px solid #eee;
+  padding: 10px 5px;
+}
+
+td:nth-child(2) {
+  width: 200px;
+}
+
+td:nth-child(3) {
+  width: 300px;
+}
